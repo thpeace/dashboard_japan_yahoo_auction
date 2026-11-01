@@ -1,0 +1,52 @@
+# ==============================================================================
+# Root .gitignore - Yahoo Auction Proxy Full-Stack Monorepo
+# ==============================================================================
+
+# Backend (Spring Boot / Maven / Java)
+backend/target/
+backend/logs/
+backend/*.log
+backend/hs_err_pid*
+backend/replay_pid*
+backend/application-local.yml
+backend/application-secret.yml
+
+# Frontend (Next.js / Node / React)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+frontend/*.tsbuildinfo
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Global IDE & Editor configurations
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.classpath
+*.project
+*.settings/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# General logs and caches
+logs/
+*.log
+.cache/
+tmp/
+temp/
+
